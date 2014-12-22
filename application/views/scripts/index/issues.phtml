@@ -46,7 +46,7 @@
                     <div class='login'>
                         <div class='user'>
                             <?php if (isset($issue->assignee)): ?>
-                                <a href='<?php print $issue->user->html_url ?>' target='_blank' title="Click to go to <?php print $issue->user->login ?>'s profile">
+                                <a href='<?php print $issue->assignee->html_url ?>' target='_blank' title="Click to go to <?php print $issue->assignee->login ?>'s profile">
                                     <?php print $issue->assignee->login; ?>
                                 </a>
                             <?php else: ?>
