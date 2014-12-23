@@ -27,7 +27,7 @@ class IndexController extends Zend_Controller_Action
      */   
     public function wikiAction()
     {   
-        $this->_redirect('https://github.com/dashee-bot/dashee/wiki');
+        $this->_redirect('https://github.com/dashee/dashee/wiki');
     }
 
     /** 
