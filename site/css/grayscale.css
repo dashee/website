@@ -1,7 +1,8 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Myraid Pro", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 100;
   color: white;
   background-color: black; }
 
@@ -124,7 +125,6 @@ a {
     .intro .intro-body .brand-heading {
       font-size: 40px; }
     .intro .intro-body .intro-text {
-      font-weight: 100;
       letter-spacing: 0.5px;
       font-size: 18px; }
   @media (min-width: 768px) {
@@ -197,17 +197,20 @@ a {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/map-hint.png) no-repeat center center scroll;
-  background-color: black;
+  background: url(../img/footer.jpg) no-repeat center center scroll;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
   .download-section a {
     color: #fff;
-    text-decoration: underline; }
-    .download-section a:hover {
-      color: #ccc; }
+    text-decoration: none;
+    font-weight: 800;
+  }
+  .download-section a:hover {
+    color: #cc3944;
+  }
 
 #map {
   width: 100%;
@@ -225,7 +228,6 @@ a {
 
 .btn {
   text-transform: uppercase;
-  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -259,7 +261,10 @@ footer {
   padding: 50px 0; }
   footer p {
     margin: 0;
-    font-size: 12px; }
+    font-size: 12px;
+    font-weight:200;
+    color: #FFFFFF;
+  }
 
 ::-moz-selection {
   text-shadow: none;
