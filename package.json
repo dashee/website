@@ -25,10 +25,9 @@
   },
   "homepage": "https://github.com/dashee/website#readme",
   "dependencies": {
-    "express": "^4.13.4"
-  },
-  "devDependencies": {
+    "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.1"
-  }
+  },
+  "devDependencies": {}
 }
