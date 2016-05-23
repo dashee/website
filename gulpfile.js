@@ -13,7 +13,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass:watch', function () {
-    gulp.watch('./sass/**/*.scss', ['sass']);
+    gulp.watch('./site/sass/**/*.scss', ['sass']);
 });
 
 gulp.task('default', ['sass']);

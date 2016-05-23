@@ -1,5 +1,5 @@
 application/configs
-sass/css
+site/css/
 public/download
 node_modules
 .idea
